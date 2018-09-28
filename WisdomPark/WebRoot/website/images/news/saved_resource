@@ -1,0 +1,333 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en" class="fu_body">
+<head id="ctl00_ctl00_Head1"><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+<link rel="stylesheet" href='/Css/style.css' />
+<link rel="stylesheet" type="text/css" href="http://at.alicdn.com/t/font_476665_8vr69rlb4qxs9k9.css">
+<link rel="stylesheet" href='/Css/select.css' />
+<link href="/Css/Style_Wg.css" rel="stylesheet" />
+<script type="text/javascript" src='/js/jquery.min.js'></script>
+<script type="text/javascript" src='/js/jquery.SuperSlide.2.1.2.js'></script>
+<script type="text/javascript" src='/js/nj.js'></script>
+<script type="text/javascript" src='/js/layer/layer.js'></script>
+<script type="text/javascript" src='/js/select.js'></script>
+<script src="/js/fenbian.js"></script>
+<script type="text/javascript" src="/js/jquery.mCustomScrollbar.js"></script>
+<script src="/js/scrolltop.js"></script>
+
+<script type="text/javascript">
+    $(function () {
+
+        var centhight = $(window).height();
+
+        var main_hight = centhight - 193 + "px"
+        $(".main").css({
+            minHeight: main_hight
+        })
+
+
+        /*头部下拉效果*/
+        $(".head_nav > ul > li").hover(function () {
+            $(this).addClass("on").find(".nav_down").stop().slideDown("fast");
+        }, function () {
+            $(this).removeClass("on").find(".nav_down").stop().slideUp("fast");
+        })
+
+        // 图片放大效果
+        $(".ser_img").hover(function () {
+            $(this).find(".img_con").removeClass("img_con3")
+            $(this).find(".img_con").addClass("img_con2")
+        }, function () {
+
+            $(this).find(".img_con").addClass("img_con3");
+            $(this).find(".img_con").removeClass("img_con2");
+
+        })
+
+
+
+        $('a[href*=#],area[href*=#]').click(function () {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') &&
+                location.hostname == this.hostname) {
+                var $target = $(this.hash);
+                $target = $target.length && $target || $('[name=' + this.hash.slice(1) +
+                    ']');
+                if ($target.length) {
+                    var targetOffset = $target.offset().top;
+                    $('html,body').animate({
+                        scrollTop: targetOffset - 134
+                    },
+                        1000);
+                    return false;
+                }
+            }
+        });
+
+      
+
+    })
+
+
+
+
+</script>
+
+    
+<style>
+  
+</style>
+
+<title>
+	南京智能制造产业园
+</title></head>
+<body class="fu_body">
+
+    <form name="aspnetForm" method="post" action="/default.aspx" id="aspnetForm">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJLTk3NDQwNTMzZGR5T4r8kU3TU01CPv0A+JLB5PWRNQ==" />
+</div>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+</div>
+        
+    
+
+<div class="header">
+    <div class="mainwidth clearfix">
+        <div class="logo">
+            <a href="/">
+                <img src="/images/home/logo.png">
+            </a>
+        </div>
+        <div class="top_right">
+            <a href='http://www.njimip.com/System/Login.aspx'> <i class='icon icon-suo'></i>用户登录</a><a href='http://www.njimip.com/System/ApplicationAdmission.aspx'> <i class='icon icon-shenqing'></i>入园申请</a><a href='http://www.njimip.com/System/Reg.aspx'> <i class='icon icon-user'></i>用户注册</a>
+
+            
+        </div>
+
+
+
+
+        
+
+
+
+        <div class="head_nav">
+            <ul>
+                <li><a href = 'http://www.njimip.com/Article/181_1584' class=''>走进园区</a><div class='nav_down'> <div class='down_con'><ul><li><a href='http://www.njimip.com/Article/ParkGo.aspx?dir=1584#tit_1606' data-value=1606 class='animated'>园区概况</a></li><li><a href='http://www.njimip.com/Article/ParkGo.aspx?dir=1584#tit_1625' data-value=1625 class='animated'>交通优势</a></li><li><a href='http://www.njimip.com/Article/ParkGo.aspx?dir=1584#tit_1626' data-value=1626 class='animated'>产业定位</a></li><li><a href='http://www.njimip.com/Article/ParkGo.aspx?dir=1584#tit_1627' data-value=1627 class='animated'>产业优势</a></li><li><a href='http://www.njimip.com/Article/ParkGo.aspx?dir=1584#tit_1628' data-value=1628 class='animated'>配套设施</a></li></ul></div></div></li><li><a href = 'http://www.njimip.com/Article/181_1585' class=''>资讯中心</a><div class='nav_down'> <div class='down_con'><ul><li><a href='http://www.njimip.com/Article/181_1607' class=''>新闻资讯</a></li><li><a href='http://www.njimip.com/Article/181_1608' class=''>通知通告</a></li></ul></div></div></li><li><a href = 'http://www.njimip.com/Article/181_1586' class=''>政策服务</a></li><li><a href = 'http://www.njimip.com/Article/181_1587' class=''>魅力园区</a></li><li><a href = 'http://www.njimip.com/Article/181_1588' class=''>企业服务</a><div class='nav_down'> <div class='down_con'><ul><li><a href='http://www.njimip.com/Article/181_1591' class=''>办事流程</a></li><li><a href='http://www.njimip.com/Article/181_1709' class=''>入园指南</a></li><li><a href='http://www.njimip.com/Article/181_1603' class=''>项目申报</a></li><li><a href='http://www.njimip.com/Article/181_1602' class=''>企业需求提报</a></li><li><a href='http://www.njimip.com/Article/181_1596' class=''>第三方服务</a></li><li><a href='http://www.njimip.com/Article/181_1612' class=''>物业报修</a></li><li><a href='http://www.njimip.com/Article/181_1601' class=''>会议室预定</a></li></ul></div></div></li><li><a href = 'http://www.njimip.com/Article/181_1589' class=''>企业专窗</a><div class='nav_down'> <div class='down_con'><ul><li><a href='http://www.njimip.com/Article/181_1613' class=''>企业资讯</a></li><li><a href='http://www.njimip.com/Article/181_1610' class=''>园区企业</a></li><li><a href='http://www.njimip.com/Article/181_1611' class=''>企业荣誉</a></li></ul></div></div></li><li><a href = 'http://www.njimip.com/Article/181_1590' class=''>党建文化</a><div class='nav_down'> <div class='down_con'><ul><li><a href='http://www.njimip.com/Article/181_1592' class=''>时政要闻</a></li><li><a href='http://www.njimip.com/Article/181_1594' class=''>园区党建</a></li><li><a href='http://www.njimip.com/Article/181_1595' class=''>党建学习</a></li><li><a href='http://www.njimip.com/Article/181_1593' class=''>党建公告</a></li><li><a href='http://www.njimip.com/Article/181_1614' class=''>党风建设</a></li></ul></div></div></li>
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script>
+    var _UserRoleID = "0";
+    //经纪人
+    if (_UserRoleID == "13") {
+        $(".top_right").remove();
+        $(".head_nav").css({ "margin-top": "41.58px" })
+    }
+</script>
+      
+    
+         
+                
+  
+       
+                    
+
+       <div class="main">
+        <div id="slideBox" class="slideBox">
+            <div class="hd">
+                <ul>
+                    
+                           <li>1</li>
+                        
+                           <li>2</li>
+                        
+                </ul>
+            </div>
+            <div class="bd">
+                <ul>
+                    
+                            <li>
+                               
+                                 <a href="#">
+                                    <img  src="http://www.njimip.com/upload/201801/95aa226bc515a903.png">
+                                </a>
+                            </li>
+                        
+                            <li>
+                               
+                                 <a href="#">
+                                    <img  src="http://www.njimip.com/upload/201801/5d7cc9f5b9ef8dd8.png">
+                                </a>
+                            </li>
+                        
+                  
+                </ul>
+            </div>
+            <!-- 下面是前/后按钮代码，如果不需要删除即可 -->
+            <a class="prev" href="javascript:void(0)"></a>
+            <a class="next" href="javascript:void(0)"></a>
+           
+        </div>
+        <div class="news_moving">
+            <div class="mainwidth">
+                <div class="Nim_news">
+                    <div class="nim_title">
+                        <span>
+                             <img src="/images/NIMNews.png">
+                        </span>
+                        <a href="/Article/181_1607">
+                            <img src="/images/More.png">
+                        </a>
+                    </div>
+
+                      <div class='nim_left'> <a target='_blank' href='http://www.njimip.com/Article/201801/201801080003.shtml'><img style='width: 277px; height: 156px'  src='/upload/201801/f238c0520c25b962_s.png'></a><div class='nim_text'>  <a target='_blank' href='http://www.njimip.com/Article/201801/201801080003.shtml' style='font-size: 16px'>江北新区积极参加2017年百名海外博士江苏行暨海外留..</a> <p>2018-01-08</p> </div><div class='nim_text'>  <a target='_blank' href='http://www.njimip.com/Article/201801/201801080001.shtml' style='font-size: 16px'>智能制造产业升级待资本助力</a> <p>2018-01-08</p> </div> </div><div class='nim_right'> <a target='_blank' href='http://www.njimip.com/Article/201801/201801020015.shtml'><img style='width: 277px; height: 156px'  src='/upload/201801/c093ca88edbcad60_s.jpg'></a><div class='nim_text'>  <a target='_blank' href='http://www.njimip.com/Article/201801/201801020015.shtml' style='font-size: 16px'>智能制造前景一片大好 智能制造产业园成为建设热点</a> <p>2018-01-02</p> </div><div class='nim_text'>  <a target='_blank' href='http://www.njimip.com/Article/201801/201801020010.shtml' style='font-size: 16px'>南京智能制造产业园：打造中国一流智能制造平台</a> <p>2018-01-02</p> </div> </div>
+
+                </div>
+                <div class="events">
+                    <div class="nim_title">
+                        <span>
+                            <img src="/images/NIMEvents.png">
+                        </span>
+                        <a href="/Article/181_1608">
+                            <img src="/images/More.png">
+                        </a>
+                    </div>
+                    <div class="events_list">
+                        <ul>
+                             
+                                            <li>
+                                                <div class="events_time">
+                                                    <span class="year">01.08</span>
+                                                    <span class="month">2018</span>
+                                                </div>
+                                                <div class="events_txt">
+                                                    <a target="_blank" href="http://www.njimip.com/Article/201801/201801080004.shtml">长芦街道水利管理服务中心办公室维修改造工程招标公告
+                                                    </a>
+                                                    <p>
+                                                       　一、长芦街道水利管理服务中心办公室维修改造工程 已经 六合..
+                                                    </p>
+                                                </div>
+                                            </li>
+                                        
+                                            <li>
+                                                <div class="events_time">
+                                                    <span class="year">01.02</span>
+                                                    <span class="month">2018</span>
+                                                </div>
+                                                <div class="events_txt">
+                                                    <a target="_blank" href="http://www.njimip.com/Article/201801/201801020013.shtml">聚焦南京智造名城（1）：南京智能制造强不强，看这..
+                                                    </a>
+                                                    <p>
+                                                       “最江苏”导读12月6日至8日，2017世界智能制造大会将在南京召..
+                                                    </p>
+                                                </div>
+                                            </li>
+                                        
+                                            <li>
+                                                <div class="events_time">
+                                                    <span class="year">01.02</span>
+                                                    <span class="month">2018</span>
+                                                </div>
+                                                <div class="events_txt">
+                                                    <a target="_blank" href="http://www.njimip.com/Article/201801/201801020012.shtml">南京智能制造产业园开园 为高新区五大产业平台之一
+                                                    </a>
+                                                    <p>
+                                                       南报网讯（记者 毛庆 通讯员 吴燕）今天（9月28日），南京高新..
+                                                    </p>
+                                                </div>
+                                            </li>
+                                        
+                        </ul>
+                    </div>
+                </div>
+                <div class="events_btn">
+                    <div class="btn_list">
+                        <ul>
+                            <li><a href="/Project/Project.aspx?dir=1603"><img src="/images/banner1.png"></a></li>
+                            <li><a href="/Project/ProjectEnterprise.aspx?dir=1602"><img src="/images/banner2.png"></a></li>
+                           <li><a href="/Article/181_1709"><img src="/images/banner3.png"></a></li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+                
+                
+     <div class="footer">
+        <div class="mainwidth">
+            <a class="logo2" href="#">
+                <img src="/images/home/logo2.png">
+            </a>
+            <div class="footer_link">
+                <p>
+                    <a>Add：No.6, Zhida Road, Nanjing, China, 210061</a>
+                    <em>|</em>
+                    <a>Tel.025-58050017 / 58050034</a>
+                    <em>|</em>
+                    <a>Email.njimip@163.com</a>
+                </p>
+                <p>Copyright 2017 INTELLIGENT MANUFACTURING INDUSTRIAL PARK. All Rights Reserved</p>
+            </div>
+
+              <div class="footer_right">
+                <span class="hv_img1">
+                     <img style="width:63px;height:63px" src="/images/home/QRcode_1.jpg">
+                    <i>订阅号</i>
+                    <div class="wix_img wix_img1">
+                        <div class="wix_box">
+                          <img src="/images/home/QRcode_1.jpg">
+                        </div>
+                        <span>扫一扫关注微信订阅号，获得更多信息！</span>
+                    </div>
+
+                </span>
+                <span class="hv_img2">
+                     <img style="width:63px;height:63px" src="/images/home/QRcode_2.jpg">
+                    <i>服务号</i>
+                    <div class="wix_img wix_img2">
+                            <div class="wix_box">
+                             <img src="/images/home/QRcode_2.jpg">
+                            </div>
+                            <span>扫一扫关注微信服务号，获得更多信息！</span>
+                           
+                        </div>
+            </div>
+
+
+           
+
+        </div>
+    </div>
+
+<script type="text/javascript" src='/js/jquery.placeholder.min.js'></script>
+  
+       
+
+    </form>
+
+
+    <div class="sidebar pcshow">
+        <ul>
+            <li class="type1" onclick="toTop()" title="回到顶部"><i class="icon icon-huidaodingbu"></i></li>
+        </ul>
+    </div>
+
+
+
+</body>
+</html>
